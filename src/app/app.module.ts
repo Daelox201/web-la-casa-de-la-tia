@@ -23,7 +23,7 @@ import { ContactoComponent } from './contacto/contacto.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      {path:'inicio', component:InicioComponent},
+      {path:'', component:InicioComponent},
       {path:'menu', component:MenuComponent},
       {path:'quienes-somos', component:QuienesSomosComponent},
       {path:'contacto', component:ContactoComponent},
