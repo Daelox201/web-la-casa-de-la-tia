@@ -246,11 +246,13 @@ h6 {
 	background: #ffffff;
 }
 .service-box {
-	padding: 0px;
+	padding: 50px;
 	border-radius: 4px;
 	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 }
+
+
 .service-box .icon {
 }
 .service-box .icon i {
