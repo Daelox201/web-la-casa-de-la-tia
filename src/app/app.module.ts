@@ -9,6 +9,7 @@ import { MenuComponent } from './menu/menu.component';
 import { RouterModule } from '@angular/router';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { CardMenuComponent } from './card-menu/card-menu.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContactoComponent } from './contacto/contacto.component';
     InicioComponent,
     MenuComponent,
     QuienesSomosComponent,
-    ContactoComponent
+    ContactoComponent,
+    CardMenuComponent
   ],
   imports: [
     BrowserModule,
