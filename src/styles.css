@@ -251,14 +251,17 @@ h6 {
 	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 }
-.service-box .icon {
+
+.platillos-mesas-cocineros{
+	padding: 0px;
 }
+
 .service-box .icon i {
 	font-size: 40px;
 	color: #ffaf53;
 }
-.icon-text {
-}
+
+
 .icon-text h4 {
 	font-size: 16px;
 	font-weight: 600;
@@ -519,12 +522,18 @@ h6 {
 	border: none;
 }
 .footer-copy {
-	background: #242424;
+	background: #313453;
 	color: #ffffff;
 	font-size: 13px;
 	text-align: center;
 	padding:7px 0px;
+  height: 150px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
 	overflow: auto;
@@ -574,5 +583,12 @@ h6 {
 }
 
 .col-md-6{
-    text-align: justify;
+  text-align: justify;
+}
+
+.terrazas img{
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombra */
+  transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
 }
