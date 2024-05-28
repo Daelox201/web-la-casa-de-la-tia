@@ -1,0 +1,40 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+.text_title{
+    font-size: 80px;
+}
+
+.content_white{
+    height: 480px;
+    height: 1440;
+    background-color:#ffffff;
+}
+
+.content_purple{
+    background-color:#313453 ;
+    height: 480px;
+    height: 1440;
+}
+
+.content_footer{
+    background-color:#313453 ;
+    height: 328px;
+    height: 1440;
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%; /* El contenedor ocupa el 100% del ancho del padre */
+    height: 540px;  
+}
+
+  .responsive-image {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 100%; /* Mantiene la proporción de la imagen */
+  }

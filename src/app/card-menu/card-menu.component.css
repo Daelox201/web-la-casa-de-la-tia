@@ -1,0 +1,76 @@
+.card {
+    width: 380px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background:  #150B48;
+    
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+/* Estilos para centrar el contenedor de la imagen en la pantalla */
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura mínima de 100% del viewport */
+    margin: 0;
+  }
+  
+  /* Estilos para el contenedor de la imagen */
+  .image-container {
+    background-image: url('../../assets/fondo.jpeg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    width: 1000px;
+    height: 180px;
+    position: relative;
+  }
+  
+  /* Estilos para el texto superpuesto */
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  
+
+.card-img {
+    width: 102%;
+    height: auto; /* Cambiado a 'auto' para mantener la relación de aspecto */
+    display: block;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.card-body {
+    padding: 20px;
+    background:  #150B48;
+    text-align: center; 
+}
+
+.card-title {
+    margin: 0;
+    font-size: 24px; 
+    color: #FFF; 
+}
+
+.card-text {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.card-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
