@@ -9,6 +9,7 @@ import { MenuComponent } from './menu/menu.component';
 import { RouterModule } from '@angular/router';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { CardMenuComponent } from './card-menu/card-menu.component';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -19,6 +20,7 @@ import { FooterComponent } from './footer/footer.component';
     MenuComponent,
     QuienesSomosComponent,
     ContactoComponent,
+    CardMenuComponent,
     FooterComponent
   ],
   imports: [

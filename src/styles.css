@@ -522,12 +522,18 @@ h6 {
 	border: none;
 }
 .footer-copy {
-	background: #242424;
+	background: #313453;
 	color: #ffffff;
 	font-size: 13px;
 	text-align: center;
 	padding:7px 0px;
+  height: 150px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
 	overflow: auto;
@@ -577,5 +583,12 @@ h6 {
 }
 
 .col-md-6{
-    text-align: justify;
+  text-align: justify;
+}
+
+.terrazas img{
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombra */
+  transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
 }
