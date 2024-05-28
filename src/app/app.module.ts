@@ -9,7 +9,11 @@ import { MenuComponent } from './menu/menu.component';
 import { RouterModule } from '@angular/router';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { ContactoComponent } from './contacto/contacto.component';
+<<<<<<< HEAD
+import { CardMenuComponent } from './card-menu/card-menu.component';
+=======
 import { FooterComponent } from './footer/footer.component';
+>>>>>>> 4ce3cbefbc8f57e86a4b6115adbb73b4222e639a
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { FooterComponent } from './footer/footer.component';
     MenuComponent,
     QuienesSomosComponent,
     ContactoComponent,
+<<<<<<< HEAD
+    CardMenuComponent
+=======
     FooterComponent
+>>>>>>> 4ce3cbefbc8f57e86a4b6115adbb73b4222e639a
   ],
   imports: [
     BrowserModule,
